@@ -9,6 +9,7 @@ Installing
 -----------
 
 Place the zendmd-comint.el somewhere in your load path and add the following lines to your .emacs
+
     (require 'zendmd-comint)
     (setq inferior-zendmd-program-command "/path/to/zendmd")
     (add-hook 'python-mode-hook '(lambda ()
