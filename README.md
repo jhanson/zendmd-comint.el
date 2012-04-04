@@ -10,9 +10,9 @@ Installing
 
 Place the zendmd-comint.el somewhere in your load path and add the following lines to your .emacs
     (require 'zendmd-comint)
-    (setq inferior-zendmd-program-command "/path/to/zendmd") ;; this may not be necessary if you have zendmd on your PATH
+    (setq inferior-zendmd-program-command "/path/to/zendmd")
     (add-hook 'python-mode-hook '(lambda ()
-                               (zendmd-minor-mode 1))) ;; will activate the minor mode every time you visit a python buffer
+                               (zendmd-minor-mode 1)))
 
 At that point you can press C-c C-z (by default) to automatically go to the zendmd.
 
